@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .red{
+            color: red;
+        }
+        ul{
+            display: none;
+        }
+        input:focus ~ ul{
+            display: block;
+        }
+    </style>
 </head>
 <body>
-    <h1 class="h1">h1</h1>
+
+    <input type="text" placeholder="tìm kiếm" id="">
+
+    <ul>
+        <li>js</li>
+        <li>php</li>
+        <li>golang</li>
+    </ul>
+
+    <h1  class="heading">hello1</h1>
+    <h1  class="heading">hello2</h1>
+    <h1  class="heading">hello3</h1>
     <div class="box-1">
         <ul>
             <li>Js1</li>
@@ -14,11 +36,15 @@
         </ul>
     </div>
     <div class="box-2">
-        <ul>
-            <li>Js2</li>
-            <li>PHP2</li>
-        </ul>
+        <h1>class list</h1>
     </div>
+    <form action="">
+        <input type="text" name="" class="input">
+        <input type="checkbox" class="input1">
+        <button class="btn">save</button>
+    </form>
+    <a href="http://127.0.0.1:5500/HTMLDOM/index.html?">a3123</a>
+    <a href="https://fullstack.edu.vn/learning/javascript-co-ban?id=6dd78909-0225-4d57-bee7-20bec5d89773">b213</a>
 </body>
 <script src="main.js"></script>
 </html>
